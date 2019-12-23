@@ -15,13 +15,13 @@ prompt='''
     ----------
 '''
 
-
 if __name__ == '__main__':
     if len(sys.argv) > 1:
         ans=input(prompt)
         if ans.lower()=='yes':
             #set format for audio file
-            ydl_opts = {
+            ydl_opts = 
+            {
             'format':'bestaudio/best',
             'postprocessors': [{
             'key': 'FFmpegExtractAudio',
