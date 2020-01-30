@@ -1,9 +1,14 @@
 import sys
 from youtube_dl import YoutubeDL
 import youtube_dl.postprocessor.ffmpeg
-#Requires youtube_dl module and ffmpeg/avconv libraries
-#Youtube_DL--https://github.com/ytdl-org/youtube-dl/blob/master/README.md#embedding-youtube-dl
-#FFMPEG--https://ffmpeg.org/download.html
+"""
+Requires youtube_dl module and ffmpeg/avconv libraries
+Youtube_DL--https://github.com/ytdl-org/youtube-dl/blob/master/README.md#embedding-youtube-dl
+FFMPEG--https://ffmpeg.org/download.html
+->Keep youtube_dl updated
+>pip install -U youtube-dl
+"""
+
 
 video_url=sys.argv[1:]
 prompt='''
